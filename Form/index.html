@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Registration Form</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone">
+
+            <label>Date of Birth</label>
+            <input type="date">
+
+            <label>Gender</label>
+            <div class="group">
+                <input type="radio" name="gender" class="inline"> Male
+                <input type="radio" name="gender" class="inline"> Female
+            </div>
+
+            <label>Skills</label>
+            <div class="group">
+                <input type="checkbox" class="inline"> HTML
+                <input type="checkbox" class="inline"> CSS
+                <input type="checkbox" class="inline"> JavaScript
+            </div>
+
+            <label>Country</label>
+            <select>
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>USA</option>
+            </select>
+
+            <label>Upload File</label>
+            <input type="file">
+
+            <label>Favorite Color</label>
+            <input type="color">
+
+            <label>Experience Level</label>
+            <input type="range">
+
+            <label>Message</label>
+            <textarea rows="3" placeholder="Write something..."></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
