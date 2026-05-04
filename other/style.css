@@ -1,0 +1,37 @@
+/* this is for relative position  
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 50px; -50px
+    left: 50px; -50px
+} */
+
+/* this is for fixed position
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+} */
+/* this is for absolute position
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative; fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
